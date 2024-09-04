@@ -1,0 +1,17 @@
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/bin/Debug/net8.0/JwtAuthenticationManager.deps.json
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/bin/Debug/net8.0/JwtAuthenticationManager.runtimeconfig.json
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/bin/Debug/net8.0/JwtAuthenticationManager.dll
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/bin/Debug/net8.0/JwtAuthenticationManager.pdb
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.csproj.AssemblyReference.cache
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.AssemblyInfoInputs.cache
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.AssemblyInfo.cs
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.dll
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/refint/JwtAuthenticationManager.dll
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.pdb
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthenticationManager.genruntimeconfig.cache
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/ref/JwtAuthenticationManager.dll
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/bin/Debug/net8.0/Authentication.Core.dll
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/bin/Debug/net8.0/Authentication.Core.pdb
+/Users/rajmahadik/Desktop/Training/WebApi/EShopMicroserviceApp/JwtAuthenticationManager/obj/Debug/net8.0/JwtAuthe.27E6DA6D.Up2Date

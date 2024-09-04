@@ -1,0 +1,116 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  authenticationapi:
+    build:
+      context: "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp"
+      dockerfile: "AuthenticationApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/AuthenticationApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "authenticationapi:dev"
+    ports: []
+    volumes:
+    - "/Users/rajmahadik/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp/AuthenticationApi:/app:rw"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp:/src:rw"
+    working_dir: "/app"
+  customerapi:
+    build:
+      context: "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp"
+      dockerfile: "CustomerApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/CustomerApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "customerapi:dev"
+    ports: []
+    volumes:
+    - "/Users/rajmahadik/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp/CustomerApi:/app:rw"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp:/src:rw"
+    working_dir: "/app"
+  notificationapi:
+    build:
+      context: "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp"
+      dockerfile: "NotificationApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/NotificationApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "notificationapi:dev"
+    ports: []
+    volumes:
+    - "/Users/rajmahadik/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp/NotificationApi:/app:rw"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp:/src:rw"
+    working_dir: "/app"
+  orderapi:
+    build:
+      context: "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp"
+      dockerfile: "OrderApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/OrderApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "orderapi:dev"
+    ports: []
+    volumes:
+    - "/Users/rajmahadik/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp/OrderApi:/app:rw"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp:/src:rw"
+    working_dir: "/app"
+  productapi:
+    build:
+      context: "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp"
+      dockerfile: "ProductApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ProductApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "productapi:dev"
+    ports: []
+    volumes:
+    - "/Users/rajmahadik/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp/ProductApi:/app:rw"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp:/src:rw"
+    working_dir: "/app"
+  shoppingcartapi:
+    build:
+      context: "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp"
+      dockerfile: "ShoppingCartApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ShoppingCartApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "shoppingcartapi:dev"
+    ports: []
+    volumes:
+    - "/Users/rajmahadik/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp/ShoppingCartApi:/app:rw"
+    - "/Users/rajmahadik/Desktop/Training/EShop-Microservices/EShopMicroserviceApp:/src:rw"
+    working_dir: "/app"

@@ -1,0 +1,48 @@
+﻿services:
+  customerapi:
+    image: customerapi
+    build:
+      context: .
+      dockerfile: CustomerApi/Dockerfile
+    ports:
+      - "50123:8080"
+    
+
+  productapi:
+    image: productapi
+    build:
+      context: .
+      dockerfile: ProductApi/Dockerfile
+    ports:
+      - "50124:8080"
+
+  orderapi:
+    image: orderapi
+    build:
+      context: .
+      dockerfile: OrderApi/Dockerfile
+    ports:
+      - "50125:8080"
+
+  shoppingcartapi:
+    image: shoppingcartapi
+    build:
+      context: .
+      dockerfile: ShoppingCartApi/Dockerfile
+    ports:
+      - "50126:8080"
+
+  authenticationapi:
+    image: authenticationapi
+    build:
+      context: .
+      dockerfile: AuthenticationApi/Dockerfile
+    ports:
+      - "50128:8080"
+  notificationapi:
+    image: notificationapi
+    build:
+      context: .
+      dockerfile: NotificationApi/Dockerfile
+    ports:
+      - "50130:8080"
